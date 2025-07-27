@@ -37,7 +37,7 @@ const Projects = () => {
       //   "Features include user role management, Real Time Notification and payment gateway integration.",
     },
     {
-      title: "🩺 VitalSync - Health App",
+      title: "VitalSync - Health App",
       description:
         "VitalSync is a cross-platform healthcare app designed to streamline patient care and clinic operations. Users can manage their profiles, book doctor appointments, and track upcoming visits with ease. On the other side, doctors handle their schedules and transactions, while admins oversee doctors, manage leads, and maintain system data—all from a unified dashboard. The app was developed as a collaborative project at Mintways Technologies, and is now live on both the Google Play Store and Apple App Store, delivering a complete healthcare management experience for both users and providers.",
       image:
@@ -56,7 +56,7 @@ const Projects = () => {
       //   "Features include user role management, Real Time Notification and payment gateway integration.",
     },
     {
-      title: "School Management Application",
+      title: "Gurukul Saarthi - School Management Application",
       description:
         "A robust, full-featured school management system designed to simplify and digitize everyday operations for educational institutions. This mobile application provides a unified platform for administrators, teachers, students, and parents to interact seamlessly. Built using Flutter with BLoC for state management, and integrated with Firebase and custom REST APIs, the app delivers real-time updates, secure authentication, and scalable data handling.",
       image:
@@ -73,26 +73,26 @@ const Projects = () => {
       // details:
       //   "Features include user role management, Real Time Notification and payment gateway integration.",
     },
-    {
-      title: "College Attendance Management System",
-      description:
-        "A flutter application which utilize Tensorflow Model to mark student attendance using face recognition with enhanced security like geofence to mark attendance only in college premises.",
-      image:
-        "https://img.freepik.com/free-vector/man-woman-biometric-process-technology_24908-56387.jpg?t=st=1746959576~exp=1746963176~hmac=3d7ea522fa8dcfc926c22f498a5130c779cbfa2ee3ff37519731f032056bb790&w=2000",
-      technologies: [
-        "Flutter",
-        ".Net",
-        "BLoC State Management",
-        "TensorFlow Lite",
-        "Google ML Kit",
-        "Face Recognition Model",
-        "Firebase Crashlytics",
-      ],
-      github: "",
-      live: "https://play.google.com/store/apps/details?id=com.college.gurukul_sarathi",
-      // details:
-      //   "Features include user role management, Student Face Registration and Attendance Marking Feature with enhanced security using Geofencing.",
-    },
+    // {
+    //   title: "College Attendance Management System",
+    //   description:
+    //     "A flutter application which utilize Tensorflow Model to mark student attendance using face recognition with enhanced security like geofence to mark attendance only in college premises.",
+    //   image:
+    //     "https://img.freepik.com/free-vector/man-woman-biometric-process-technology_24908-56387.jpg?t=st=1746959576~exp=1746963176~hmac=3d7ea522fa8dcfc926c22f498a5130c779cbfa2ee3ff37519731f032056bb790&w=2000",
+    //   technologies: [
+    //     "Flutter",
+    //     ".Net",
+    //     "BLoC State Management",
+    //     "TensorFlow Lite",
+    //     "Google ML Kit",
+    //     "Face Recognition Model",
+    //     "Firebase Crashlytics",
+    //   ],
+    //   github: "",
+    //   live: "https://play.google.com/store/apps/details?id=com.college.gurukul_sarathi",
+    //   // details:
+    //   //   "Features include user role management, Student Face Registration and Attendance Marking Feature with enhanced security using Geofencing.",
+    // },
     {
       title: "TT Global - Asset Tracker App",
       description:
