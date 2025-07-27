@@ -73,26 +73,6 @@ const Projects = () => {
       // details:
       //   "Features include user role management, Real Time Notification and payment gateway integration.",
     },
-    // {
-    //   title: "College Attendance Management System",
-    //   description:
-    //     "A flutter application which utilize Tensorflow Model to mark student attendance using face recognition with enhanced security like geofence to mark attendance only in college premises.",
-    //   image:
-    //     "https://img.freepik.com/free-vector/man-woman-biometric-process-technology_24908-56387.jpg?t=st=1746959576~exp=1746963176~hmac=3d7ea522fa8dcfc926c22f498a5130c779cbfa2ee3ff37519731f032056bb790&w=2000",
-    //   technologies: [
-    //     "Flutter",
-    //     ".Net",
-    //     "BLoC State Management",
-    //     "TensorFlow Lite",
-    //     "Google ML Kit",
-    //     "Face Recognition Model",
-    //     "Firebase Crashlytics",
-    //   ],
-    //   github: "",
-    //   live: "https://play.google.com/store/apps/details?id=com.college.gurukul_sarathi",
-    //   // details:
-    //   //   "Features include user role management, Student Face Registration and Attendance Marking Feature with enhanced security using Geofencing.",
-    // },
     {
       title: "TT Global - Asset Tracker App",
       description:
