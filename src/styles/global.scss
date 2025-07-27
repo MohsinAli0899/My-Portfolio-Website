@@ -1,0 +1,18 @@
+@import "./variables.scss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+  transition: background 0.2s, color 0.2s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+// Add any global resets or base styles here

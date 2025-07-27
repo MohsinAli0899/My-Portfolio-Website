@@ -1,0 +1,20 @@
+.theme-toggle__icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.theme-toggle__icon--hidden {
+  opacity: 0;
+  transform: scale(0) rotate(90deg);
+  pointer-events: none;
+}
+
+.theme-toggle__icon--sun {
+  /* Sun-specific styles if needed */
+}
+
+.theme-toggle__icon--moon {
+  position: absolute;
+  /* Moon-specific styles if needed */
+}

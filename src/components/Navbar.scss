@@ -1,0 +1,63 @@
+@import "../styles/variables.scss";
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background: rgba(var(--color-bg, 255, 255, 255), 0.8);
+  backdrop-filter: blur(6px);
+  z-index: 50;
+  border-bottom: 1px solid var(--color-secondary, #e5e7eb);
+}
+
+.navbar-container {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  @media (min-width: 640px) {
+    padding: 0 1.5rem;
+  }
+  @media (min-width: 1024px) {
+    padding: 0 2rem;
+  }
+}
+
+.navbar-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+.navbar-logo {
+  flex-shrink: 0;
+}
+
+.navbar-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-primary, #1d4ed8);
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navbar-link {
+  color: var(--color-muted-foreground, #6b7280);
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+  &:hover {
+    color: var(--color-primary, #1d4ed8);
+  }
+}
+
+.navbar-resume-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

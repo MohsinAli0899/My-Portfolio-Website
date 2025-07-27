@@ -1,0 +1,32 @@
+@import "../../styles/variables.scss";
+
+.hover-card {
+  position: relative;
+  display: inline-block;
+
+}
+
+.hover-card-trigger {
+  cursor: pointer;
+}
+
+.hover-card-content {
+  position: absolute;
+  z-index: 50;
+  min-width: 16rem;
+  background: #fff;
+  color: #222;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(0.5rem);
+  display: none;
+}
+
+.hover-card:hover .hover-card-content,
+.hover-card-trigger:focus + .hover-card-content {
+  display: block;
+}
